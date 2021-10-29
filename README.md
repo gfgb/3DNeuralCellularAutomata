@@ -75,7 +75,7 @@ https://user-images.githubusercontent.com/28317156/139439854-549efa28-e3cd-484d-
 ## How to run
 
 ### Preprocessing
-To obtain a voxelized object compatible with this software, use this online resource to convert a 3D model https://drububu.com/miscellaneous/voxelizer/?out=obj.
+To obtain a voxelized object compatible with this software, use this online resource to convert a 3D model https://drububu.com/miscellaneous/voxelizer/?out=json.
 Set the *shell thickness* to the maximum value and download as json.
 
 ### Training
