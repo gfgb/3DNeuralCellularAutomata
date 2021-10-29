@@ -3,6 +3,9 @@ Project for the course of **Deep Learning and Applied Artificial Intelligence 20
 Master's Degree in Computer Science\
 Sapienza University of Rome
 ## Report
+
+https://github.com/gfgb/3DNeuralCellularAutomata/blob/main/report.pdf
+
 ## Description
 
 This project is an extension to the 3-dimensional domain of the work\
@@ -64,6 +67,8 @@ Targets
 <p float="left">
   <img src="/models/camel_conv_regenerating_e5000_h300_target.png" width="300" />
 </p>
+
+A trainable convolutional layer yields better results at the cost of a less truthful modelization of the biological process of regeneration.
 
 https://user-images.githubusercontent.com/28317156/139439854-549efa28-e3cd-484d-a558-fb79b7e770a5.mp4
 
