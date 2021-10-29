@@ -1,0 +1,26 @@
+{
+    "name": "camel_conv",
+    "file": "camel.json",
+    "experiment_type": "regenerating",
+    "lr": 0.002,
+    "lr_decay": 0.9999,
+    "betas": [
+        0.5,
+        0.5
+    ],
+    "epochs": 5000,
+    "batch_sz": 8,
+    "pool_sz": 1024,
+    "steps": [
+        8,
+        32
+    ],
+    "hidden_sz": 300,
+    "n_channels": 16,
+    "cell_fire_rate": 0.5,
+    "padding": 0,
+    "use_pattern_pool": true,
+    "damage_n": 3,
+    "use_pretrained": false,
+    "voxel_grid_size": 20
+}
