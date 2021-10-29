@@ -74,7 +74,11 @@ https://user-images.githubusercontent.com/28317156/139439854-549efa28-e3cd-484d-
 
 ## How to run
 
-**Training**
+### Preprocessing
+To obtain a voxelized object compatible with this software, use this online resource to convert a 3D model https://drububu.com/miscellaneous/voxelizer/?out=obj.
+Set the *shell thickness* to the maximum value and download as json.
+
+### Training
 ```
 usage: main.py [-h] [--name NAME] [--file FILE] [-exp EXPERIMENT_TYPE] [--lr LR] [--lr-decay LR_DECAY]
                [--betas BETAS BETAS] [--epochs EPOCHS] [--batch-sz BATCH_SZ] [--pool-sz POOL_SZ] [--steps STEPS STEPS]
@@ -116,7 +120,7 @@ Example
 ```
 python main.py --name camel --trainable-conv 0 --file camel.json --experiment-type regenerating --epochs 5000 --hidden-sz 300
 ```
-**Rendering**
+### Rendering
 ```
 usage: render.py [-h] [--experiment-name EXPERIMENT_NAME] [--steps STEPS] [--fps FPS] [--azim AZIM]
                  [--rotation-speed ROTATION_SPEED] [-dmg DAMAGE DAMAGE DAMAGE DAMAGE DAMAGE]
