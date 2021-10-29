@@ -2,8 +2,8 @@
 Project for the course of **Deep Learning and Applied Artificial Intelligence 2020/2021**\
 Master's Degree in Computer Science\
 Sapienza University of Rome
-### Report
-### Description
+## Report
+## Description
 
 This project is an extension to the 3-dimensional domain of the work\
 *Growing Neural Cellular Automata* by A. Mordvintsev, E. Randazzo, E. Niklasson, M. Levin\
@@ -13,8 +13,42 @@ Part of the code is adapted from https://github.com/chenmingxiang110/Growing-Neu
 
 
 
-### Results
-### How to run
+## Results
+
+### Growing
+Targets
+<p float="left">
+  <img src="/models/bunny_growing_e5000_h300_target.png" width="300" />
+  <img src="/models/camel_growing_e5000_h300_target.png" width="300" /> 
+</p>
+
+https://user-images.githubusercontent.com/28317156/139420469-3c009481-6ee9-4710-b3cc-03c5eae46e1b.mp4
+
+https://user-images.githubusercontent.com/28317156/139420516-ea83191e-9ba6-4556-b18a-c4fef715252f.mp4
+
+
+### Persisting
+
+Targets
+<p float="left">
+  <img src="/models/bunny_regenerating_e5000_h300_target.png" width="300" />
+  <img src="/models/camel_regenerating_e5000_h300_target.png" width="300" />
+</p>
+
+https://user-images.githubusercontent.com/28317156/139425673-b1284d6f-2d06-4b40-b32b-7d833abbc8db.mp4
+
+https://user-images.githubusercontent.com/28317156/139420726-991c0e3a-908f-4219-979f-a810237d90c2.mp4
+
+
+### Regenerating
+
+
+
+
+
+
+
+## How to run
 
 **Training**
 ```
